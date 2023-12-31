@@ -1,0 +1,25 @@
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/date-3.3.4/ext/date
+/Users/mikiko/.rbenv/versions/2.6.6/bin/ruby extconf.rb
+checking for rb_category_warn()... no
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-1rbr49h sitelibdir\=./.gem.20231231-88276-1rbr49h clean
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-1rbr49h sitelibdir\=./.gem.20231231-88276-1rbr49h
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-1rbr49h sitelibdir\=./.gem.20231231-88276-1rbr49h install
+/usr/bin/install -c -m 0755 date_core.bundle ./.gem.20231231-88276-1rbr49h
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-1rbr49h sitelibdir\=./.gem.20231231-88276-1rbr49h clean

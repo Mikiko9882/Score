@@ -1,0 +1,19 @@
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+/Users/mikiko/.rbenv/versions/2.6.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-fsb6qp sitelibdir\=./.gem.20231231-88276-fsb6qp clean
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-fsb6qp sitelibdir\=./.gem.20231231-88276-fsb6qp
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-fsb6qp sitelibdir\=./.gem.20231231-88276-fsb6qp install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20231231-88276-fsb6qp/racc
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-fsb6qp sitelibdir\=./.gem.20231231-88276-fsb6qp clean

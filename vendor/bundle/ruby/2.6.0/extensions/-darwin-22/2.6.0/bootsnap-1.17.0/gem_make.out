@@ -1,0 +1,19 @@
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.17.0/ext/bootsnap
+/Users/mikiko/.rbenv/versions/2.6.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-8a0tbh sitelibdir\=./.gem.20231231-88276-8a0tbh clean
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-8a0tbh sitelibdir\=./.gem.20231231-88276-8a0tbh
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-8a0tbh sitelibdir\=./.gem.20231231-88276-8a0tbh install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20231231-88276-8a0tbh/bootsnap
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.17.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20231231-88276-8a0tbh sitelibdir\=./.gem.20231231-88276-8a0tbh clean
