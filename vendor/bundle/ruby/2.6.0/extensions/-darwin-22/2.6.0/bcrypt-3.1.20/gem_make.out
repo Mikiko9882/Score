@@ -1,0 +1,23 @@
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.20/ext/mri
+/Users/mikiko/.rbenv/versions/2.6.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20231231-5621-1fh1c1r sitelibdir\=./.gem.20231231-5621-1fh1c1r clean
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20231231-5621-1fh1c1r sitelibdir\=./.gem.20231231-5621-1fh1c1r
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+clang  -D__SKIP_GNU -I/Users/mikiko/.rbenv/versions/2.6.6/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20231231-5621-1fh1c1r sitelibdir\=./.gem.20231231-5621-1fh1c1r install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20231231-5621-1fh1c1r
+
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20231231-5621-1fh1c1r sitelibdir\=./.gem.20231231-5621-1fh1c1r clean
