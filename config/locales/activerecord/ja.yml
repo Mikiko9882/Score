@@ -1,0 +1,15 @@
+ja:
+  activerecord:
+    models:
+      user: 'ユーザー'
+      board: '掲示板'
+    attributes:
+      user:
+        email: 'メールアドレス'
+        password: 'パスワード'
+        password_confirmation: 'パスワード確認'
+        login_id: 'ログインID'
+        login_identifier: 'ログインIDまたはEメール'
+        full_name: '氏名'
+        nickname: 'ニックネーム'
+        grade_and_class: '学年・クラス'
