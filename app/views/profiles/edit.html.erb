@@ -14,6 +14,12 @@
         <%= f.label :first_name %>
         <%= f.text_field :first_name, class: 'form-control mb-3' %>
 
+        <%= f.label :nickname %>
+        <%= f.text_field :nickname, class: 'form-control mb-3' %>
+
+        <%= f.label :grade_and_class %>
+        <%= f.text_field :grade_and_class, class: 'form-control mb-3' %>
+
         <%= f.label :avatar %>
         <%= f.file_field :avatar, onchange: 'previewFileWithId(preview)', class: 'form-control mb-3', accept: 'image/*' %>
         <%= f.hidden_field :avatar_cache %>

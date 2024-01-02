@@ -14,6 +14,14 @@
           <td><%= current_user.decorate.full_name %></td>
         </tr>
         <tr>
+        <tr>
+          <th scope="row"><%= t(User.human_attribute_name(:nickname)) %></th>
+          <td><%= current_user.nickname %></td>
+        </tr>
+        <tr>
+          <th scope="row"><%= t(User.human_attribute_name(:grade_and_class)) %></th>
+          <td><%= current_user.grade_and_class %></td>
+        </tr>
           <th scope="row"><%= t(User.human_attribute_name(:avatar)) %></th>
           <td><%= image_tag current_user.avatar.url, class: 'rounded-circle', size: '50x50' %></td>
         </tr>
