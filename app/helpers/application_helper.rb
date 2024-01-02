@@ -5,4 +5,10 @@ module ApplicationHelper
     
     grades.product(classes).map { |grade, klass| ["#{grade} #{klass}", "#{grade} #{klass}"] }
   end
+
+  def page_title(page_title = '')
+    base_title = 'Test Score Rivals'
+
+    page_title.empty? ? base_title : page_title + ' | ' + base_title
+  end
 end
