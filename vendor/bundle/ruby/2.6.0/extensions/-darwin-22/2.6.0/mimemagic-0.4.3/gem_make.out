@@ -1,0 +1,3 @@
+current directory: /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/mimemagic-0.4.3/ext/mimemagic
+/Users/mikiko/.rbenv/versions/2.6.6/bin/ruby -rrubygems /Users/mikiko/score/vendor/bundle/ruby/2.6.0/gems/rake-13.1.0/exe/rake RUBYARCHDIR\=/Users/mikiko/score/vendor/bundle/ruby/2.6.0/extensions/-darwin-22/2.6.0/mimemagic-0.4.3 RUBYLIBDIR\=/Users/mikiko/score/vendor/bundle/ruby/2.6.0/extensions/-darwin-22/2.6.0/mimemagic-0.4.3
+mkdir -p /Users/mikiko/score/vendor/bundle/ruby/2.6.0/extensions/-darwin-22/2.6.0/mimemagic-0.4.3/mimemagic

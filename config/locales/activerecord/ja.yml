@@ -14,3 +14,5 @@ ja:
         first_name: '名'
         nickname: 'ニックネーム'
         grade_and_class: '学年・クラス'
+        full_name: '氏名'
+        avatar: 'アバター'

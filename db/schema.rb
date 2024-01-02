@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2024_01_01_083959) do
+ActiveRecord::Schema.define(version: 2024_01_02_224400) do
 
   create_table "users", force: :cascade do |t|
     t.string "login_id", null: false
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2024_01_01_083959) do
     t.string "grade_and_class", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "avatar"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["login_id"], name: "index_users_on_login_id", unique: true
   end
